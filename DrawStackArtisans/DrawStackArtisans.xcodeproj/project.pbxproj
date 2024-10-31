@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4ED16A2CD3601800F1A9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1602CD3601800F1A9ED /* AppDelegate.swift */; };
+		FF4ED16B2CD3601800F1A9ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1672CD3601800F1A9ED /* SceneDelegate.swift */; };
+		FF4ED16C2CD3601800F1A9ED /* DrawNavRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1682CD3601800F1A9ED /* DrawNavRootViewController.swift */; };
+		FF4ED16D2CD3601800F1A9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED1612CD3601800F1A9ED /* Assets.xcassets */; };
+		FF4ED16F2CD3601800F1A9ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED1642CD3601800F1A9ED /* LaunchScreen.storyboard */; };
+		FF4ED1702CD3601800F1A9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED1662CD3601800F1A9ED /* Main.storyboard */; };
+		FF4ED1732CD3629400F1A9ED /* DrawSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1722CD3628F00F1A9ED /* DrawSuit.swift */; };
+		FF4ED1752CD362A300F1A9ED /* DrawCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1742CD362A200F1A9ED /* DrawCard.swift */; };
+		FF4ED1772CD362BE00F1A9ED /* DrawCardLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1762CD362BD00F1A9ED /* DrawCardLayer.swift */; };
+		FF4ED1792CD362DA00F1A9ED /* DrawSolitaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1782CD362DA00F1A9ED /* DrawSolitaire.swift */; };
+		FF4ED17B2CD362F800F1A9ED /* DrawCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED17A2CD362F600F1A9ED /* DrawCardStack.swift */; };
+		FF4ED17D2CD3630D00F1A9ED /* DrawSolitaireGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED17C2CD3630D00F1A9ED /* DrawSolitaireGameViewController.swift */; };
+		FF4ED17F2CD3632D00F1A9ED /* DrawAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED17E2CD3632C00F1A9ED /* DrawAboutViewController.swift */; };
+		FF4ED1812CD3634600F1A9ED /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1802CD3634400F1A9ED /* extension.swift */; };
+		FF4ED1832CD3638E00F1A9ED /* DrawCustomCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1822CD3638B00F1A9ED /* DrawCustomCornerView.swift */; };
+		FF4ED1852CD363A800F1A9ED /* DrawGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1842CD363A700F1A9ED /* DrawGradientView.swift */; };
+		FF4ED1872CD363BC00F1A9ED /* DrawCircularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1862CD363BB00F1A9ED /* DrawCircularGradientView.swift */; };
+		FF4ED1892CD363D200F1A9ED /* DrawGradientViewST.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1882CD363D100F1A9ED /* DrawGradientViewST.swift */; };
+		FF4ED18B2CD363ED00F1A9ED /* DrawInnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED18A2CD363EC00F1A9ED /* DrawInnerShadowView.swift */; };
+		FF4ED18D2CD3641000F1A9ED /* DrawFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED18C2CD3640F00F1A9ED /* DrawFeedbackViewController.swift */; };
+		FF4ED18F2CD3642000F1A9ED /* DrawAlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED18E2CD3641F00F1A9ED /* DrawAlertUtils.swift */; };
+		FF4ED1912CD3643000F1A9ED /* DrawGameOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1902CD3643000F1A9ED /* DrawGameOneViewController.swift */; };
+		FF4ED1932CD3645400F1A9ED /* DrawPopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1922CD3645300F1A9ED /* DrawPopUpWindow.swift */; };
+		FF4ED1952CD3646400F1A9ED /* DrawPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1942CD3646300F1A9ED /* DrawPrivacyViewController.swift */; };
+		FF4ED1972CD3646F00F1A9ED /* DrawSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1962CD3646E00F1A9ED /* DrawSettingViewController.swift */; };
+		FF4ED1992CD3648400F1A9ED /* DrawSolitaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1982CD3648300F1A9ED /* DrawSolitaireView.swift */; };
+		FF4ED19D2CD367A300F1A9ED /* DrawNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED19C2CD367A300F1A9ED /* DrawNavigationController.m */; };
+		FF4ED19F2CD3680100F1A9ED /* DrawHomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED19E2CD3680100F1A9ED /* DrawHomViewController.swift */; };
+		FF4EDA993193DD817E9E2395 /* Pods_DrawStackArtisans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C316222C03665AEF2F4E6E7 /* Pods_DrawStackArtisans.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		282E0A903A33B54B06FEDF83 /* Pods-DrawStackArtisans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawStackArtisans.release.xcconfig"; path = "Target Support Files/Pods-DrawStackArtisans/Pods-DrawStackArtisans.release.xcconfig"; sourceTree = "<group>"; };
+		297A0F5797F67F8BA73F41C5 /* Pods-DrawStackArtisans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawStackArtisans.debug.xcconfig"; path = "Target Support Files/Pods-DrawStackArtisans/Pods-DrawStackArtisans.debug.xcconfig"; sourceTree = "<group>"; };
+		7C316222C03665AEF2F4E6E7 /* Pods_DrawStackArtisans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawStackArtisans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4ED1482CD35FF700F1A9ED /* DrawStackArtisans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawStackArtisans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4ED1602CD3601800F1A9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4ED1612CD3601800F1A9ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4ED1622CD3601800F1A9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4ED1632CD3601800F1A9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4ED1652CD3601800F1A9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4ED1672CD3601800F1A9ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF4ED1682CD3601800F1A9ED /* DrawNavRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawNavRootViewController.swift; sourceTree = "<group>"; };
+		FF4ED1722CD3628F00F1A9ED /* DrawSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSuit.swift; sourceTree = "<group>"; };
+		FF4ED1742CD362A200F1A9ED /* DrawCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCard.swift; sourceTree = "<group>"; };
+		FF4ED1762CD362BD00F1A9ED /* DrawCardLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCardLayer.swift; sourceTree = "<group>"; };
+		FF4ED1782CD362DA00F1A9ED /* DrawSolitaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSolitaire.swift; sourceTree = "<group>"; };
+		FF4ED17A2CD362F600F1A9ED /* DrawCardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCardStack.swift; sourceTree = "<group>"; };
+		FF4ED17C2CD3630D00F1A9ED /* DrawSolitaireGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSolitaireGameViewController.swift; sourceTree = "<group>"; };
+		FF4ED17E2CD3632C00F1A9ED /* DrawAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAboutViewController.swift; sourceTree = "<group>"; };
+		FF4ED1802CD3634400F1A9ED /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		FF4ED1822CD3638B00F1A9ED /* DrawCustomCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCustomCornerView.swift; sourceTree = "<group>"; };
+		FF4ED1842CD363A700F1A9ED /* DrawGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGradientView.swift; sourceTree = "<group>"; };
+		FF4ED1862CD363BB00F1A9ED /* DrawCircularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCircularGradientView.swift; sourceTree = "<group>"; };
+		FF4ED1882CD363D100F1A9ED /* DrawGradientViewST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGradientViewST.swift; sourceTree = "<group>"; };
+		FF4ED18A2CD363EC00F1A9ED /* DrawInnerShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawInnerShadowView.swift; sourceTree = "<group>"; };
+		FF4ED18C2CD3640F00F1A9ED /* DrawFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFeedbackViewController.swift; sourceTree = "<group>"; };
+		FF4ED18E2CD3641F00F1A9ED /* DrawAlertUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAlertUtils.swift; sourceTree = "<group>"; };
+		FF4ED1902CD3643000F1A9ED /* DrawGameOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGameOneViewController.swift; sourceTree = "<group>"; };
+		FF4ED1922CD3645300F1A9ED /* DrawPopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPopUpWindow.swift; sourceTree = "<group>"; };
+		FF4ED1942CD3646300F1A9ED /* DrawPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPrivacyViewController.swift; sourceTree = "<group>"; };
+		FF4ED1962CD3646E00F1A9ED /* DrawSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSettingViewController.swift; sourceTree = "<group>"; };
+		FF4ED1982CD3648300F1A9ED /* DrawSolitaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSolitaireView.swift; sourceTree = "<group>"; };
+		FF4ED19A2CD367A300F1A9ED /* DrawStackArtisans-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawStackArtisans-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF4ED19B2CD367A300F1A9ED /* DrawNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawNavigationController.h; sourceTree = "<group>"; };
+		FF4ED19C2CD367A300F1A9ED /* DrawNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawNavigationController.m; sourceTree = "<group>"; };
+		FF4ED19E2CD3680100F1A9ED /* DrawHomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawHomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4ED1452CD35FF700F1A9ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4EDA993193DD817E9E2395 /* Pods_DrawStackArtisans.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D52C306A9EB60D02E5D0BAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C316222C03665AEF2F4E6E7 /* Pods_DrawStackArtisans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EA922231A9D79907BCD47E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				297A0F5797F67F8BA73F41C5 /* Pods-DrawStackArtisans.debug.xcconfig */,
+				282E0A903A33B54B06FEDF83 /* Pods-DrawStackArtisans.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF4ED13F2CD35FF700F1A9ED = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1692CD3601800F1A9ED /* DrawStackArtisans */,
+				FF4ED1492CD35FF700F1A9ED /* Products */,
+				C7EA922231A9D79907BCD47E /* Pods */,
+				2D52C306A9EB60D02E5D0BAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4ED1492CD35FF700F1A9ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1482CD35FF700F1A9ED /* DrawStackArtisans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4ED1692CD3601800F1A9ED /* DrawStackArtisans */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1602CD3601800F1A9ED /* AppDelegate.swift */,
+				FF4ED1672CD3601800F1A9ED /* SceneDelegate.swift */,
+				FF4ED1612CD3601800F1A9ED /* Assets.xcassets */,
+				FF4ED1622CD3601800F1A9ED /* Info.plist */,
+				FF4ED1642CD3601800F1A9ED /* LaunchScreen.storyboard */,
+				FF4ED1662CD3601800F1A9ED /* Main.storyboard */,
+				FF4ED1682CD3601800F1A9ED /* DrawNavRootViewController.swift */,
+				FF4ED19B2CD367A300F1A9ED /* DrawNavigationController.h */,
+				FF4ED19C2CD367A300F1A9ED /* DrawNavigationController.m */,
+				FF4ED19E2CD3680100F1A9ED /* DrawHomViewController.swift */,
+				FF4ED17C2CD3630D00F1A9ED /* DrawSolitaireGameViewController.swift */,
+				FF4ED17E2CD3632C00F1A9ED /* DrawAboutViewController.swift */,
+				FF4ED18C2CD3640F00F1A9ED /* DrawFeedbackViewController.swift */,
+				FF4ED1902CD3643000F1A9ED /* DrawGameOneViewController.swift */,
+				FF4ED1942CD3646300F1A9ED /* DrawPrivacyViewController.swift */,
+				FF4ED1962CD3646E00F1A9ED /* DrawSettingViewController.swift */,
+				FF4ED1712CD3628100F1A9ED /* AppTool */,
+				FF4ED19A2CD367A300F1A9ED /* DrawStackArtisans-Bridging-Header.h */,
+			);
+			path = DrawStackArtisans;
+			sourceTree = "<group>";
+		};
+		FF4ED1712CD3628100F1A9ED /* AppTool */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1922CD3645300F1A9ED /* DrawPopUpWindow.swift */,
+				FF4ED18E2CD3641F00F1A9ED /* DrawAlertUtils.swift */,
+				FF4ED1802CD3634400F1A9ED /* extension.swift */,
+				FF4ED1722CD3628F00F1A9ED /* DrawSuit.swift */,
+				FF4ED1742CD362A200F1A9ED /* DrawCard.swift */,
+				FF4ED1762CD362BD00F1A9ED /* DrawCardLayer.swift */,
+				FF4ED1782CD362DA00F1A9ED /* DrawSolitaire.swift */,
+				FF4ED17A2CD362F600F1A9ED /* DrawCardStack.swift */,
+				FF4ED1822CD3638B00F1A9ED /* DrawCustomCornerView.swift */,
+				FF4ED1842CD363A700F1A9ED /* DrawGradientView.swift */,
+				FF4ED1862CD363BB00F1A9ED /* DrawCircularGradientView.swift */,
+				FF4ED1882CD363D100F1A9ED /* DrawGradientViewST.swift */,
+				FF4ED18A2CD363EC00F1A9ED /* DrawInnerShadowView.swift */,
+				FF4ED1982CD3648300F1A9ED /* DrawSolitaireView.swift */,
+			);
+			path = AppTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4ED1472CD35FF700F1A9ED /* DrawStackArtisans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4ED15B2CD35FF800F1A9ED /* Build configuration list for PBXNativeTarget "DrawStackArtisans" */;
+			buildPhases = (
+				09C7692591BE7B5A16821E36 /* [CP] Check Pods Manifest.lock */,
+				FF4ED1442CD35FF700F1A9ED /* Sources */,
+				FF4ED1452CD35FF700F1A9ED /* Frameworks */,
+				FF4ED1462CD35FF700F1A9ED /* Resources */,
+				4F4B53C4B999365E058A975D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawStackArtisans;
+			productName = DrawStackArtisans;
+			productReference = FF4ED1482CD35FF700F1A9ED /* DrawStackArtisans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4ED1402CD35FF700F1A9ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF4ED1472CD35FF700F1A9ED = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = FF4ED1432CD35FF700F1A9ED /* Build configuration list for PBXProject "DrawStackArtisans" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4ED13F2CD35FF700F1A9ED;
+			productRefGroup = FF4ED1492CD35FF700F1A9ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4ED1472CD35FF700F1A9ED /* DrawStackArtisans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4ED1462CD35FF700F1A9ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED16D2CD3601800F1A9ED /* Assets.xcassets in Resources */,
+				FF4ED16F2CD3601800F1A9ED /* LaunchScreen.storyboard in Resources */,
+				FF4ED1702CD3601800F1A9ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C7692591BE7B5A16821E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawStackArtisans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F4B53C4B999365E058A975D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawStackArtisans/Pods-DrawStackArtisans-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawStackArtisans/Pods-DrawStackArtisans-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawStackArtisans/Pods-DrawStackArtisans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4ED1442CD35FF700F1A9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED1892CD363D200F1A9ED /* DrawGradientViewST.swift in Sources */,
+				FF4ED16A2CD3601800F1A9ED /* AppDelegate.swift in Sources */,
+				FF4ED18D2CD3641000F1A9ED /* DrawFeedbackViewController.swift in Sources */,
+				FF4ED1992CD3648400F1A9ED /* DrawSolitaireView.swift in Sources */,
+				FF4ED17D2CD3630D00F1A9ED /* DrawSolitaireGameViewController.swift in Sources */,
+				FF4ED19F2CD3680100F1A9ED /* DrawHomViewController.swift in Sources */,
+				FF4ED1932CD3645400F1A9ED /* DrawPopUpWindow.swift in Sources */,
+				FF4ED16B2CD3601800F1A9ED /* SceneDelegate.swift in Sources */,
+				FF4ED17B2CD362F800F1A9ED /* DrawCardStack.swift in Sources */,
+				FF4ED1972CD3646F00F1A9ED /* DrawSettingViewController.swift in Sources */,
+				FF4ED1752CD362A300F1A9ED /* DrawCard.swift in Sources */,
+				FF4ED1792CD362DA00F1A9ED /* DrawSolitaire.swift in Sources */,
+				FF4ED1772CD362BE00F1A9ED /* DrawCardLayer.swift in Sources */,
+				FF4ED1812CD3634600F1A9ED /* extension.swift in Sources */,
+				FF4ED1832CD3638E00F1A9ED /* DrawCustomCornerView.swift in Sources */,
+				FF4ED18F2CD3642000F1A9ED /* DrawAlertUtils.swift in Sources */,
+				FF4ED19D2CD367A300F1A9ED /* DrawNavigationController.m in Sources */,
+				FF4ED1732CD3629400F1A9ED /* DrawSuit.swift in Sources */,
+				FF4ED1852CD363A800F1A9ED /* DrawGradientView.swift in Sources */,
+				FF4ED17F2CD3632D00F1A9ED /* DrawAboutViewController.swift in Sources */,
+				FF4ED18B2CD363ED00F1A9ED /* DrawInnerShadowView.swift in Sources */,
+				FF4ED1952CD3646400F1A9ED /* DrawPrivacyViewController.swift in Sources */,
+				FF4ED16C2CD3601800F1A9ED /* DrawNavRootViewController.swift in Sources */,
+				FF4ED1872CD363BC00F1A9ED /* DrawCircularGradientView.swift in Sources */,
+				FF4ED1912CD3643000F1A9ED /* DrawGameOneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF4ED1642CD3601800F1A9ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4ED1632CD3601800F1A9ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4ED1662CD3601800F1A9ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4ED1652CD3601800F1A9ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4ED15C2CD35FF800F1A9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297A0F5797F67F8BA73F41C5 /* Pods-DrawStackArtisans.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawStackArtisans/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Draw Stack Artisans";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrawStackArtisans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawStackArtisans/DrawStackArtisans-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF4ED15D2CD35FF800F1A9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282E0A903A33B54B06FEDF83 /* Pods-DrawStackArtisans.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawStackArtisans/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Draw Stack Artisans";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrawStackArtisans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawStackArtisans/DrawStackArtisans-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF4ED15E2CD35FF800F1A9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4ED15F2CD35FF800F1A9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4ED1432CD35FF700F1A9ED /* Build configuration list for PBXProject "DrawStackArtisans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED15E2CD35FF800F1A9ED /* Debug */,
+				FF4ED15F2CD35FF800F1A9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4ED15B2CD35FF800F1A9ED /* Build configuration list for PBXNativeTarget "DrawStackArtisans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED15C2CD35FF800F1A9ED /* Debug */,
+				FF4ED15D2CD35FF800F1A9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4ED1402CD35FF700F1A9ED /* Project object */;
+}
