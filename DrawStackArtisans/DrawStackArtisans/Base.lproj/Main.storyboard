@@ -833,7 +833,6 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="btnBack:" destination="cQh-gC-55K" eventType="touchUpInside" id="tKA-n3-L6N"/>
                                             <action selector="redo:" destination="cQh-gC-55K" eventType="touchUpInside" id="XO3-iR-qeu"/>
                                         </connections>
                                     </button>
@@ -884,7 +883,6 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="btnBack:" destination="cQh-gC-55K" eventType="touchUpInside" id="u9m-xx-lNx"/>
                                             <action selector="undo:" destination="cQh-gC-55K" eventType="touchUpInside" id="Pjq-en-Ycg"/>
                                         </connections>
                                     </button>
