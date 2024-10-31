@@ -1,8 +1,8 @@
 //
 //  UIViewController+Extension.h
-//  StarlightPokerKings
+//  DrawStackArtisans
 //
-//  Created by StarlightPokerKings on 2024/10/18.
+//  Created by DrawStackArtisans on 2024/10/18.
 //
 
 #import <UIKit/UIKit.h>
