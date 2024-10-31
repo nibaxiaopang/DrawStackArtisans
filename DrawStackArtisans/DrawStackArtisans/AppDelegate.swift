@@ -7,6 +7,7 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import Adjust
 
 func sandboxArchivePath() -> String {
     let dir : NSString = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first! as NSString
@@ -15,7 +16,7 @@ func sandboxArchivePath() -> String {
 }
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, AdjustDelegate {
 
     var solitaire : DrawSolitaire!
     
@@ -23,6 +24,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         initConfig()
+        
+        let token = "6tfkie8ds2dc"
+        let environment = ADJEnvironmentProduction
+        let myAdjustConfig = ADJConfig(
+               appToken: token,
+               environment: environment)
+        myAdjustConfig?.delegate = self
+        myAdjustConfig?.logLevel = ADJLogLevelVerbose
+        Adjust.appDidLaunch(myAdjustConfig)
+        
         return true
     }
     
@@ -52,6 +63,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func adjustEventTrackingSucceeded(_ eventSuccessResponseData: ADJEventSuccess?) {
+        print("adjustEventTrackingSucceeded")
+    }
+    
+    func adjustEventTrackingFailed(_ eventFailureResponseData: ADJEventFailure?) {
+        print("adjustEventTrackingFailed")
+    }
+    
+    func adjustAttributionChanged(_ attribution: ADJAttribution?) {
+        print("adid\(attribution?.adid ?? "")")
+    }
 
 }
 

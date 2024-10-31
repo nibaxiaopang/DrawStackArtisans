@@ -35,6 +35,7 @@
 		FF4ED1992CD3648400F1A9ED /* DrawSolitaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1982CD3648300F1A9ED /* DrawSolitaireView.swift */; };
 		FF4ED19D2CD367A300F1A9ED /* DrawNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED19C2CD367A300F1A9ED /* DrawNavigationController.m */; };
 		FF4ED19F2CD3680100F1A9ED /* DrawHomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED19E2CD3680100F1A9ED /* DrawHomViewController.swift */; };
+		FF4ED1A22CD378BC00F1A9ED /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1A12CD378BC00F1A9ED /* UIViewController+Extension.m */; };
 		FF4EDA993193DD817E9E2395 /* Pods_DrawStackArtisans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C316222C03665AEF2F4E6E7 /* Pods_DrawStackArtisans.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		FF4ED19B2CD367A300F1A9ED /* DrawNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawNavigationController.h; sourceTree = "<group>"; };
 		FF4ED19C2CD367A300F1A9ED /* DrawNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawNavigationController.m; sourceTree = "<group>"; };
 		FF4ED19E2CD3680100F1A9ED /* DrawHomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawHomViewController.swift; sourceTree = "<group>"; };
+		FF4ED1A02CD378BC00F1A9ED /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		FF4ED1A12CD378BC00F1A9ED /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 				FF4ED1642CD3601800F1A9ED /* LaunchScreen.storyboard */,
 				FF4ED1662CD3601800F1A9ED /* Main.storyboard */,
 				FF4ED1682CD3601800F1A9ED /* DrawNavRootViewController.swift */,
+				FF4ED1942CD3646300F1A9ED /* DrawPrivacyViewController.swift */,
 				FF4ED19B2CD367A300F1A9ED /* DrawNavigationController.h */,
 				FF4ED19C2CD367A300F1A9ED /* DrawNavigationController.m */,
 				FF4ED19E2CD3680100F1A9ED /* DrawHomViewController.swift */,
@@ -140,7 +144,6 @@
 				FF4ED17E2CD3632C00F1A9ED /* DrawAboutViewController.swift */,
 				FF4ED18C2CD3640F00F1A9ED /* DrawFeedbackViewController.swift */,
 				FF4ED1902CD3643000F1A9ED /* DrawGameOneViewController.swift */,
-				FF4ED1942CD3646300F1A9ED /* DrawPrivacyViewController.swift */,
 				FF4ED1962CD3646E00F1A9ED /* DrawSettingViewController.swift */,
 				FF4ED1712CD3628100F1A9ED /* AppTool */,
 				FF4ED19A2CD367A300F1A9ED /* DrawStackArtisans-Bridging-Header.h */,
@@ -151,6 +154,8 @@
 		FF4ED1712CD3628100F1A9ED /* AppTool */ = {
 			isa = PBXGroup;
 			children = (
+				FF4ED1A02CD378BC00F1A9ED /* UIViewController+Extension.h */,
+				FF4ED1A12CD378BC00F1A9ED /* UIViewController+Extension.m */,
 				FF4ED1922CD3645300F1A9ED /* DrawPopUpWindow.swift */,
 				FF4ED18E2CD3641F00F1A9ED /* DrawAlertUtils.swift */,
 				FF4ED1802CD3634400F1A9ED /* extension.swift */,
@@ -297,6 +302,7 @@
 				FF4ED1972CD3646F00F1A9ED /* DrawSettingViewController.swift in Sources */,
 				FF4ED1752CD362A300F1A9ED /* DrawCard.swift in Sources */,
 				FF4ED1792CD362DA00F1A9ED /* DrawSolitaire.swift in Sources */,
+				FF4ED1A22CD378BC00F1A9ED /* UIViewController+Extension.m in Sources */,
 				FF4ED1772CD362BE00F1A9ED /* DrawCardLayer.swift in Sources */,
 				FF4ED1812CD3634600F1A9ED /* extension.swift in Sources */,
 				FF4ED1832CD3638E00F1A9ED /* DrawCustomCornerView.swift in Sources */,
@@ -348,6 +354,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrawStackArtisans/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Draw Stack Artisans";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Starlight Poker Kings needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -359,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.DrawStackArtisans;
+				PRODUCT_BUNDLE_IDENTIFIER = com.draw.DrawStackArtisans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -384,6 +391,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrawStackArtisans/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Draw Stack Artisans";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Starlight Poker Kings needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -395,7 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.DrawStackArtisans;
+				PRODUCT_BUNDLE_IDENTIFIER = com.draw.DrawStackArtisans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
