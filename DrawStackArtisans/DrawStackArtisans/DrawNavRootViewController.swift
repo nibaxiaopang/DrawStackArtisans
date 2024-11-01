@@ -14,6 +14,10 @@ class DrawNavRootViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     var reachability: Reachability!
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -113,7 +117,12 @@ class DrawNavRootViewController: UIViewController {
         let vc: DrawPrivacyViewController = self.storyboard?.instantiateViewController(withIdentifier: "DrawPrivacyViewController") as! DrawPrivacyViewController
         vc.modalPresentationStyle = .fullScreen
         vc.url = bnUrl
-        self.navigationController?.present(vc, animated: false)
+        if self.presentedViewController != nil {
+            self.presentedViewController?.present(vc, animated: false)
+        } else {
+            self.present(vc, animated: false)
+        }
+        
     }
 }
 
