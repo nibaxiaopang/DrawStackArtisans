@@ -986,9 +986,18 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxp-U5-xbe">
                                 <rect key="frame" x="16" y="76" width="820" height="301"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Welcome to Draw Stack Artisans, the ultimate destination for card game enthusiasts! Our app features two exciting game modes designed to challenge your memory, focus, and strategy. The Card Flip Challenge offers a fun twist on memory games. Players progress through five levels, with increasing difficulty, where cards are briefly shown, and then flipped. Your task is to find the target card from the flipped deck, testing your observation skills as you race against time.
+                                <mutableString key="text">Welcome to Draw Stack Artisans, your go-to app for exciting and challenging card games that sharpen your focus and strategic thinking! Dive into two captivating game modes tailored to engage and entertain:
 
-For classic card game lovers, we bring you Spider DrawSolitaire, a timeless favorite. Strategically stack cards and clear the board in this beloved single-player game, available in its most engaging form. Whether you're looking to sharpen your memory or enjoy a relaxing round of solitaire, StDraw Stack Artisans offers endless entertainment for players of all ages. Download now and start crafting your perfect card game experience!</string>
+How to Use:
+
+	1.	Select Game Mode: Choose between Card Flip Challenge for visual exercises or Spider Solitaire for a strategic game.
+	2.	Start Playing:
+◦ In Card Flip Challenge: Watch the cards closely before they flip and aim to identify the target card as fast as you can.
+◦ In Spider Solitaire: Stack the cards in descending order to clear the board and win the game.
+Benefits:
+• Enhances Observation Skills: Card Flip Challenge helps boost your visual recognition skills.
+• Sharpens Focus: Both games require concentration, making them great mental exercises.
+• Stress Relief: Enjoy Spider Solitaire’s calming gameplay to unwind and relax.</mutableString>
                                 <color key="textColor" name="appColor_white"/>
                                 <fontDescription key="fontDescription" name="STIXTwoText_Medium" family="STIX Two Text" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
